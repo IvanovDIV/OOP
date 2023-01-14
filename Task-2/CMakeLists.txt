@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.16)
+project(Task2)
+
+add_executable(main Task2.cpp)
+
+target_link_libraries(main functions)
+add_subdirectory(include)
+add_subdirectory(src)

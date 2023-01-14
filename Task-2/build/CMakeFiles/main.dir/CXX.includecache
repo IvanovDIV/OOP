@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/functions/Functions.h
+string
+-
+
+/home/dmitrii/Task2/Task2.cpp
+cstdio
+-
+string
+-
+functions/Functions.h
+/home/dmitrii/Task2/functions/Functions.h
+
